@@ -1,0 +1,74 @@
+.login-form {
+    background-color: #d63384;
+    margin-top: 50px ;
+    width: 400px;
+    height: 450px;
+}
+.signup-form {
+    background-color: #d63384;
+    margin-top: 50px ;
+    width: 400px;
+    height: 500px;
+}
+.form-content h1 {
+    color: white;
+    font-weight: bolder;
+}
+.name {
+    padding-top: 40px;
+}
+.email1 {
+    padding-top: 50px;
+}
+.form-link {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.forgot-pass {
+    text-decoration: none;
+    font-weight: bolder;
+}
+.form-link span {
+    color: white;
+}
+.signup-link {
+    text-decoration: none;
+    font-weight: bolder;
+}
+.cof {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+body {
+    background-color: #f8f9fa;
+}
+.navbar, .footer {
+    background-color: #d63384;
+}
+.navbar-brand, .footer {
+    color: #fff;
+}
+.act {
+    background-color: #9b215c; 
+    border-radius: 5px;
+    padding: 10px;
+    color:#fff
+}
+.btn-pink {
+    background-color: #d63384;
+    color: #fff;
+}
+.btn-pink:hover {
+    background-color: #c82373;
+}
+@media screen and (max-width:400px) {
+    .login-form {
+        width: 230px;
+    }
+    .signup-form{
+        width: 230px;
+    }
+    .input {
+        width: 200px;
+    }
+}

@@ -1,0 +1,82 @@
+body {
+    background-color: #f8f9fa;
+}
+.navbar, .footer {
+    background-color: #d63384;
+}
+.navbar-brand, .footer {
+    color: #fff;
+}
+.act {
+    background-color: #9b215c; 
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+}
+.btn-pink {
+    background-color: #d63384;
+    color: #fff;
+}
+.btn-pink:hover {
+    background-color: #c82373;
+}
+.hero {
+    background-image: url("/images/bg.png");
+    background-size: cover;
+    color: #b9139b;
+    padding: 200px 0;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 6rem;
+    font-weight: bolder;
+    font-family: Cochin;
+}
+.hero p {
+    font-size: 1.5rem;
+}
+.btn-see-products {
+    background-color: #d63384;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0px;
+    transition: background-color 0.3s ease;
+}
+.btn-see-products:hover {
+    background-color: #9b215c;
+    color:#fff
+}
+.about-section {
+    padding: 50px 0;
+}
+.about-section h2 {
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: Cochin;
+}
+.card {
+    box-shadow: 0 0 20px rgb(121, 121, 121);
+}
+.card-body {
+    border: 0.5px solid rgb(180, 180, 180);
+    font-size: larger;
+}
+.blog-section {
+    padding-bottom: 50px;
+}
+.carousel-caption {
+    color: rgb(35, 35, 35);
+}
+.carousel-item img {
+    max-height: 600px;
+}
+.contact-section {
+    padding-bottom: 50px
+}
+@media screen and (max-width: 250px) {
+    .hero h1 {
+        font-size: 60px;
+    }
+}
