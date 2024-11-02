@@ -70,7 +70,7 @@ body {
     color: rgb(35, 35, 35);
 }
 .carousel-item img {
-    max-height: 600px;
+    max-height: 1000px;
 }
 .contact-section {
     padding-bottom: 50px

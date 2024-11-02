@@ -27,10 +27,17 @@
                     <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>    
-                <!-- login button -->
+    
+                <!-- login/logout display -->
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
+                    <li class="nav-item" id="loginButton">
                         <a class="nav-link act" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item" id="userDisplay" style="display: none;">
+                        <a class="nav-link" href="#">Welcome, <span id="username"></span></a>
+                    </li>
+                    <li class="nav-item" id="logoutButton" style="display: none;">
+                        <a class="nav-link" href="#" onclick="logout()">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -200,6 +207,6 @@
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-instagram"></i>
     </footer>
-
+    <script src="./js/login.js"></script>
 </body>
 </html>
