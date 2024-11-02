@@ -72,3 +72,158 @@ body {
         width: 200px;
     }
 }
+
+/* General Styling */
+body {
+    background: linear-gradient(135deg, #ff66b2, #ff99cc);
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff66b2;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ffd1e8 !important;
+}
+
+/* Login Section */
+.login-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.login-form {
+    background-color: #ffffff;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h1 {
+    font-size: 1.8rem;
+    color: #ff66b2;
+    font-weight: bold;
+}
+
+.form-control {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.form-control:focus {
+    border-color: #ff66b2;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #ff66b2;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff3385;
+}
+
+.forgot-pass,
+.signup-link {
+    color: #ff66b2;
+    text-decoration: none;
+}
+
+.forgot-pass:hover,
+.signup-link:hover {
+    color: #ff3385;
+}
+
+.rounded-pill {
+    border-radius: 50px;
+}
+
+
+/* General Styling */
+body {
+    background-color: #ff66b2;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff66b2;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ffd1e8 !important;
+}
+
+/* Signup Section */
+.signup-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.signup-form {
+    background-color: #ffffff;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form h1 {
+    font-size: 1.8rem;
+    color: #ff66b2;
+    font-weight: bold;
+}
+
+.form-control {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.form-control:focus {
+    border-color: #ff66b2;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #ff66b2;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff3385;
+}
+
+.signup-link {
+    color: #ff66b2;
+    text-decoration: none;
+}
+
+.signup-link:hover {
+    color: #ff3385;
+}
+
+.rounded-pill {
+    border-radius: 50px;
+}
