@@ -80,13 +80,11 @@ body {
 }
 
 /* Navbar */
-.navbar {
-    background-color: #ff66b2;
-}
 
 .navbar-brand,
 .nav-link {
     color: white !important;
+    transition: color 0.3s;
 }
 
 .nav-link:hover {
@@ -159,9 +157,7 @@ body {
 }
 
 /* Navbar */
-.navbar {
-    background-color: #ff66b2;
-}
+
 
 .navbar-brand,
 .nav-link {

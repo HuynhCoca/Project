@@ -7,6 +7,14 @@ body {
 .navbar-brand, .footer {
     color: #fff;
 }
+.nav-link {
+    color: white !important;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffd1e8 !important;
+}
 .act {
     background-color: #9b215c; 
     border-radius: 5px;
@@ -70,7 +78,7 @@ body {
     color: rgb(35, 35, 35);
 }
 .carousel-item img {
-    max-height: 1000px;
+    max-height: 700px;
 }
 .contact-section {
     padding-bottom: 50px

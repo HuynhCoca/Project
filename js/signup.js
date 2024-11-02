@@ -3,7 +3,6 @@ function signUp() {
     let name = document.getElementById('name').value;
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
- HEAD
 
     if (email == "" || password == "" || name == "") {
         alert('Enter email, password and name');
@@ -11,7 +10,7 @@ function signUp() {
     }
 
     let confirmPassword = document.getElementById('ConfirmPassword').value;
- f980317402420a5e2c621c04c856c07585ecfa60
+    
     const user = {
         name: name,
         email: email,

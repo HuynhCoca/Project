@@ -17,8 +17,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .post h2 {
-    color: #333;
+    color: #ff66b2;
     font-size: 60px;
+    font-weight: bold;
 }
 .post img {
     max-width: 100%;
@@ -37,6 +38,14 @@ body {
 }
 .navbar-brand, .footer {
     color: #fff;
+}
+.nav-link {
+    color: white !important;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffd1e8 !important;
 }
 .act {
     background-color: #9b215c; 
