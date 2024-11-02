@@ -20,6 +20,12 @@ function logIn() {
     event.preventDefault();
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
+
+    if (email === '' || password === '') {
+        alert('Please fill in all fields');
+        return;
+    }
+    
     let users = JSON.parse(localStorage.getItem('users')) || [];
     for (let i = 0; i < users.length; i++) {
         if (users[i].email === email && users[i].password === password) {
